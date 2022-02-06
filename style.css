@@ -1,0 +1,315 @@
+/*General styling*/
+
+body{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    background-color: hsl(226, 43%, 10%);
+    color: #fff;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding:1em 0;
+}
+.attribution a {
+    color: hsl(348, 100%, 68%);
+}
+
+/*Typography*/
+
+h1{
+    margin: 0;
+    font-size: 1rem;
+    width: 70%;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
+}
+
+h2{
+    font-weight: 400;
+}
+
+.present{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.past{
+    margin: 0;
+    font-size: 1rem;
+    color: hsl(236, 100%, 87%);
+}
+
+.accentText{
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(236, 100%, 87%);
+}
+
+a:hover,
+a:focus{
+    color: white;
+}
+
+.activePage{
+    color: white;
+}
+
+/*Layout*/
+.container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 3em;
+    max-width: 370px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.organizer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userCol{
+    height: 25vh;
+    padding: 0;
+    background-color:  hsl(235, 46%, 20%);
+    border-radius: 25px;
+}
+
+.userMod{
+    background-color: rgba(87,70,234,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    border-radius: 25px;
+}
+
+.contain{
+    display: flex;
+    height: 60%;
+    width: 90%;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+nav{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar{
+    max-width: 100%;
+    max-height: 100%;
+    width: 20%;
+    border: white 2px solid;
+    border-radius: 50%;
+}
+
+.sec{
+    height: 25vh;
+    margin-top: 1.5em;
+    position: relative;
+    border-radius: 25px;
+}
+
+.bg{
+    height: 30%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+    bottom: 0px;
+    border-radius: 25px;
+    padding-bottom: 25px;
+}
+
+.content:hover,
+.content:focus{
+    background-color: hsl(236, 41%, 34%);
+    cursor: pointer;
+}
+
+.organizer img:hover{
+    scale: 1.25;
+}
+
+.content > *{
+    width: 85%;
+}
+
+.workBg{
+    background-image: url(images/icon-work.svg);
+    background-color: hsl(15, 100%, 70%);
+    
+}
+
+.playBg{
+    background-image: url(images/icon-play.svg);
+    background-color: hsl(195, 74%, 62%);
+    
+}
+
+.studyBg{
+    background-image: url(images/icon-study.svg);
+    background-color: hsl(348, 100%, 68%);
+    
+}
+
+.exerciseBg{
+    background-image: url(images/icon-exercise.svg);
+    background-color: hsl(145, 58%, 55%);
+    
+}
+
+.socialBg{
+    background-image: url(images/icon-social.svg);
+    background-color: hsl(264, 64%, 52%);
+    
+}
+
+.careBg{
+    background-image: url(images/icon-self-care.svg);
+    background-color: hsl(43, 84%, 65%);
+    
+}
+
+@media (min-width : 1000px) {
+
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .attribution {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h2{
+        font-size: 1.25rem;
+    }
+
+    nav{
+        align-items: center;
+        justify-content: center;
+        height: 30%;
+    }
+
+    .userMod{
+        height: 70%;
+    }
+
+    ul.flex{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        width: 80%;
+    }
+    
+    .container{
+        display: flex;
+        max-width: 80%;
+        height: 70vh;
+        align-items: center;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .contain{
+        flex-direction: column;
+        align-items:flex-start;
+        height: 100%;
+        width: 80%;
+    }
+
+    .userCol{
+        width: 25%;
+        height: 100%;
+    }
+
+    .avatar{
+        width: 40%;
+    }
+
+    .accentText{
+        font-size: 2.5rem;
+    }
+
+    .activityArea{
+        display: flex;
+        flex-direction: column;
+        width: 72%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .Row{
+        display: flex;
+        justify-content: space-between;
+        height: 47%;
+    }
+
+    .sec{
+        margin: 0;
+        width: 31%;
+        height: 100%;
+    }
+
+    .organizer{
+        height: 30%;
+        padding-top: 1rem;
+    }
+
+    .unflex{
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 70%;
+        justify-content: space-evenly;
+    }
+
+    .present{
+        font-size: 3.5rem;
+    }
+}
