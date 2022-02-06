@@ -47,19 +47,19 @@ Users should be able to:
 
 ### What I learned
 
--The versatility of FlexBox, I used it a lot in this project.
--The importance of keeping the specificity of CSS selectors in mind especially when debugging.
--I practiced some positioning while trying to get the colored backgrounds in place.
--I discovered Microsoft Power Toys, mainly the color picker there.
+- The versatility of FlexBox, I used it a lot in this project.
+- The importance of keeping the specificity of CSS selectors in mind especially when debugging.
+- I practiced some positioning while trying to get the colored backgrounds in place.
+- I discovered Microsoft Power Toys, mainly the color picker there.
 
 ### Continued development
 
--I need to practice better positioning techniques
+- I need to practice better positioning techniques
 
--Using paddings and margins in responsive design proved difficult, I want to practice
+- Using paddings and margins in responsive design proved difficult, I want to practice
 propper use of those propperties while stying responsive
 
--Practice better mobile first flow as I found myself overwriting a lot of what I coded
+- Practice better mobile first flow as I found myself overwriting a lot of what I coded
 for the mobile version.
 
 ### Useful resources
